@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2 id="title-el">UNIT CONVERTER</h2>
+        <div class="inner-box">
+
+            <div class="select-box">
+                <select id="inputSelect">
+                    <option value="kilometer">Kilometer</option>
+                    <option value="meter">Meter</option>
+                    <option value="centimeter">Centimeter</option>
+                </select>
+                <select id="resultSelect">
+                    <option value="kilometer">Kilometer</option>
+                    <option value="meter">Meter</option>
+                    <option value="centimeter">Centimeter</option>
+                </select>
+            </div>
+
+            <div class="input-box">
+                <div class="content">
+                    <input id="input" type="text" placeholder="Number" class="input-el">
+                </div>
+    
+                <div class="content">
+                    <h2>=</h2>
+                </div>
+    
+                <div class="content">
+                    <input id="result" type="text" placeholder="Result" class="input-el">
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
